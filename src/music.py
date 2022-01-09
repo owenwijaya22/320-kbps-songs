@@ -11,6 +11,7 @@ ydl_opts = {
     'format': 'bestaudio/best',
     'noplaylist': 'true',
     'outtmpl': 'G:/My Drive/320kbps_songs' + '/%(title)s.%(ext)s',
+    #'outtmpl': ./320kbps_songs' + '/%(title)s.%(ext)s',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
